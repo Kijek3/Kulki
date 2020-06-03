@@ -1,0 +1,53 @@
+@keyframes ballPop {
+    0% {
+        /* width: 0px;
+        height: 0px; */
+        opacity: 0
+    }
+    100% {
+        /* width: 35px;
+        height: 35px; */
+        opacity: 1
+    }
+}
+
+@keyframes ballSelect {
+    0% {
+        width: 75%;
+        height: 75%;
+    }
+    100% {
+        width: 85%;
+        height: 85%;
+    }
+}
+
+@keyframes ballUnselect {
+    0% {
+        width: 85%;
+        height: 85%;
+    }
+    100% {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+.ballStack {
+    animation: 0.7s ease-out 0s 1 ballPop;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.ballSelect {
+    animation: 0.2s ease-out 0s 1 ballSelect;
+    width: 85%;
+    height: 85%;
+}
+
+.ballUnselect {
+    animation: 0.2s ease-out 0s 1 ballUnselect;
+    width: 75%;
+    height: 75%;
+}

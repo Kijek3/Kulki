@@ -1,0 +1,27 @@
+.boardRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.boardCell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    transition: background-color 0.1s;
+}
+
+.boardCell:hover {
+    background-color: #ddd;
+}
+
+.ball {
+    border-radius: 50px;
+}
+
+.boardPath {
+    background-color: pink !important;
+}

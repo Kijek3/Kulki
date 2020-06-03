@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#leftContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+}
+
+#rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0.8;
+}
+
+#nextBalls {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
