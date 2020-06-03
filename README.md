@@ -11,3 +11,5 @@ Jedyny potrzebny klawisz to LPM - najpierw należy wybrać kulkę, a następnie 
 
 Gra została napisana w języku TypeScript, a następnie zbudowana za pomocą webpacka.
 Miłej gry. :)
+
+~ 12.2019
